@@ -57,7 +57,7 @@ loadMoreBtn4.onclick = () => {
         boxes[i].style.display = "inline-block";
     }
     currentItem4 += 4;
-    if (currentItem1 >= boxes.length) {
+    if (currentItem4 >= boxes.length) {
         loadMoreBtn4.style.display = "none"
         
     }
